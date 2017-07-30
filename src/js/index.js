@@ -8,3 +8,5 @@ ReactDOM.render(
   <h1>Hello, world!</h1>,
   document.getElementById('app')
 );
+
+global.requestAnimationFrame = (callback) => setTimeout(callback);
