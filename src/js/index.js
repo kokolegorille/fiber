@@ -9,4 +9,4 @@ ReactDOM.render(
   document.getElementById('app')
 );
 
-global.requestAnimationFrame = (callback) => setTimeout(callback);
+// global.requestAnimationFrame = (callback) => setTimeout(callback);
